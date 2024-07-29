@@ -16,6 +16,7 @@ class SearchScreen extends StatelessWidget {
     SearchProvider homeProviderTrue =
         Provider.of<SearchProvider>(context, listen: true);
     return Scaffold(
+      backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
         backgroundColor: Colors.grey.shade300,
         centerTitle: true,
