@@ -7,7 +7,7 @@ class Helper
 {
   Future<Map> fetchApiData(String search)
   async {
-    Uri url = Uri.parse('https://pixabay.com/api/?key=45166468-c771e21f5518e48d9c9acf6ae&q=$search&image_type=nature');
+    Uri url = Uri.parse('https://pixabay.com/api/?key=45166468-c771e21f5518e48d9c9acf6ae&q=$search');
 
     Response response = await http.get(url);
     if(response.statusCode == 200)
