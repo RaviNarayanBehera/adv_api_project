@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'PixaBay/provider/pixa_provider.dart';
-import 'PixaBay/view/pixa_screen.dart';
+import 'PixaBy/provider/pixa_provider.dart';
+import 'PixaBy/view/pixa_screen.dart';
 
 
 

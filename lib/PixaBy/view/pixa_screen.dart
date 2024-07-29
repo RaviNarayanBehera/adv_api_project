@@ -17,8 +17,9 @@ class SearchScreen extends StatelessWidget {
         Provider.of<SearchProvider>(context, listen: true);
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.grey.shade300,
         centerTitle: true,
-        title: Text(
+        title: const Text(
           'PixaBay',
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
@@ -34,14 +35,14 @@ class SearchScreen extends StatelessWidget {
                   Expanded(
                     child: TextField(
                      controller: txtSearch,
-                      style: TextStyle(color: Colors.black),
+                      style: const TextStyle(color: Colors.black),
                       decoration: InputDecoration(
-                        labelStyle: TextStyle(color: Colors.black),
+                        labelStyle: const TextStyle(color: Colors.black),
                         label: const Text('Search Images'),
                         fillColor: Colors.black,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
-                          borderSide: BorderSide(color: Colors.black)
+                          borderSide: const BorderSide(color: Colors.black)
                         ),
                       ),
                     ),
