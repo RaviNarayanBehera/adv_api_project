@@ -1,3 +1,4 @@
+import 'package:adv_api_project/PixaBy/view/pixa_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'PixaBy/provider/pixa_provider.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           '/': (context) => const SearchScreen(),
+          '/detail': (context) => const DetailPage(),
         },
       ),
     );
