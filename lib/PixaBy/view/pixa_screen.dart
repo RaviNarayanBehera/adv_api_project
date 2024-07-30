@@ -1,4 +1,3 @@
-import 'package:async_wallpaper/async_wallpaper.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
